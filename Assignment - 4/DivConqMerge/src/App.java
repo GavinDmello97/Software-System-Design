@@ -3,6 +3,7 @@ public class App {
   public static void main(String[] args) throws Exception {
     int[] arr = new int[] { 24, 12, 13, 4, 92, 0, 8, 10 };
     System.out.print("\nUnsorted list: ");
+
     for (int p = 0; p < arr.length; p++) {
       System.out.print(arr[p] + " ");
     }
